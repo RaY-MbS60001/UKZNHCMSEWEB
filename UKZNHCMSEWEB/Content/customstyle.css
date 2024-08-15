@@ -1,0 +1,45 @@
+﻿/*LO IN PAGE STYLE*/
+.loginpanel {
+    background-color: white;
+    width: 1000px;
+    height: 550px;
+    position: absolute;
+    top: 15%;
+    left: 35%;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); 
+    border-radius: 8px;
+}
+
+.logosection {
+    display: grid;
+    place-items: center;
+    background-color: white;
+    width: 500px;
+    height: 220px;
+}
+
+.inline-container1 {
+    display: flex; 
+    align-items: center;
+}
+
+.inline-container2 {
+    display: flex;
+    align-items: center;
+}
+
+Label {
+    margin-right: 10px;
+}
+
+.loginbutton {
+    padding: 5px 0;
+    display: grid;
+    place-items: center;
+    background-color: white;
+    width: 500px;
+    height: 50px;
+}
+
+/*END OF LOGIN PAGE STYLE*/
+
