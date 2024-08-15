@@ -11,7 +11,7 @@
 <body>
     <form id="form1" runat="server">
         <div class="main">
-            <div class ="titlediv">
+            <div class ="titlediv"> 
 	<h1>Admin Dashboard</h1>
             </div>
             <section class="menubuttons">
