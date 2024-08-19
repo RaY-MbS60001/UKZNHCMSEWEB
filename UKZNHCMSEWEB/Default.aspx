@@ -14,7 +14,7 @@
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6);
             border-radius: 8px;
         }
-        .sidebar a {
+        .buttonpanels a {
             padding: 10px 15px;
             text-decoration: none;
             font-size: 18px;
@@ -114,20 +114,40 @@
             <tr>
                 <td>
                     <div class="buttonpanels" onclick="redirectToAppointments()">
-                        <img src="resources/2355692-removebg-preview.png" width="100" height="100"/>
-                        View Appointments
+                        <img src="resources/calendar-icon-add-date-event-symbol--removebg-preview.png" width="100" height="100"/>
+                        <h4><b>View Appointments</b></h4>
                     </div>
                 </td>
                 <td>
                     <div class="buttonpanels" onclick="redirectToAppointments()">
-                        <img src="resources/2355692-removebg-preview.png" width="100" height="100"/>
-                        View Appointments
+                        <img src="resources/appointment-icon-calendar-removebg-preview.png" width="100" height="100"/>
+                        <h4><b>View Appointments</b></h4>
                     </div>
                 </td>
                 <td>
                     <div class="buttonpanels" onclick="redirectToAppointments()">
-                        <img src="resources/2355692-removebg-preview.png" width="100" height="100"/>
-                        View Appointments
+                        <img src="resources/3974877-removebg-preview (1).png" width="100" height="100"/>
+                        <h4><b>View Appointments</b></h4>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="buttonpanels" onclick="redirectToAppointments()">
+                        <img src="resources/pharmaceutical-drug-medicine--removebg-preview.png" width="100" height="100"/>
+                        <h4><b>View Appointments</b></h4>
+                    </div>
+                </td>
+                <td>
+                    <div class="buttonpanels" onclick="redirectToAppointments()">
+                        <img src="resources/manage_patient-removebg-preview.png" width="100" height="100"/>
+                        <h4><b>View Appointments</b></h4>
+                    </div>
+                </td>
+                <td>
+                    <div class="buttonpanels" onclick="redirectToAppointments()">
+                        <img src="resources/medical-staff-icon-vector-6088119-removebg-preview.png" width="100" height="100"/>
+                        <h4><b>View Appointments</b></h4>
                     </div>
                 </td>
             </tr>
@@ -135,39 +155,19 @@
                 <td>
                     <div class="buttonpanels" onclick="redirectToAppointments()">
                         <img src="resources/2355692-removebg-preview.png" width="100" height="100"/>
-                        View Appointments
+                        <h4><b>View Appointments</b></h4>
                     </div>
                 </td>
                 <td>
                     <div class="buttonpanels" onclick="redirectToAppointments()">
                         <img src="resources/2355692-removebg-preview.png" width="100" height="100"/>
-                        View Appointments
+                        <h4><b>View Appointments</b></h4>
                     </div>
                 </td>
                 <td>
                     <div class="buttonpanels" onclick="redirectToAppointments()">
-                        <img src="resources/2355692-removebg-preview.png" width="100" height="100"/>
-                        View Appointments
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <div class="buttonpanels" onclick="redirectToAppointments()">
-                        <img src="resources/2355692-removebg-preview.png" width="100" height="100"/>
-                        View Appointments
-                    </div>
-                </td>
-                <td>
-                    <div class="buttonpanels" onclick="redirectToAppointments()">
-                        <img src="resources/2355692-removebg-preview.png" width="100" height="100"/>
-                        View Appointments
-                    </div>
-                </td>
-                <td>
-                    <div class="buttonpanels" onclick="redirectToAppointments()">
-                        <img src="resources/2355692-removebg-preview.png" width="100" height="100"/>
-                        View Appointments
+                        <img src="resources/transparent-user-interface-icon-mail-icon-email-removebg-preview.png" width="105" height="100"/>
+                        <h4><b>View Appointments</b></h4>
                     </div>
                 </td>
             </tr>

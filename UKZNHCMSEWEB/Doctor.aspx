@@ -100,7 +100,7 @@
            <br />
             <h2>Sidebar Menu</h2>
             <div class="sidebarbuttons">
-	<img src="resources/2355692-removebg-preview.png" width="50" height="50"/>
+                <img src="resources/calendar-icon-add-date-event-symbol--removebg-preview.png" width="50" height="50"/>
                 View Appointments
             </div>
             <br />
