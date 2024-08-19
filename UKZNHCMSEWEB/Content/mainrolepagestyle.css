@@ -1,6 +1,6 @@
 ﻿.main {
     background-color: white;
-    width: 1300px;
+    width: 1500px;
     height: 900px;
     position: absolute;
     top: 15%;
@@ -28,12 +28,11 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
     padding: 20px;
-    display: flex;
-    width: 1000px;
+    width: 1000px; /* Adjusted width */
     height: 500px;
     position: absolute;
     top: 25%;
-    left: 11%;
+    left: 20%; /* Adjusted left position */
     align-items: center; /* Aligns items vertically */
     justify-items: center; /* Aligns items horizontally */
 }
@@ -48,3 +47,14 @@
     place-items: center;
 }
 
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+}

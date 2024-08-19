@@ -114,8 +114,10 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\customstyle.css" />
     <Content Include="Content\mainrolepagestyle.css" />
+    <Content Include="Content\newStyleSheet.css" />
     <Content Include="Content\Site.css" />
     <Content Include="Default.aspx" />
+    <Content Include="Doctor.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -128,8 +130,68 @@
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="LogIn.aspx" />
+    <Content Include="resources\Backgroundpicture" />
+    <Content Include="WebForm2.aspx" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
+    <Content Include="resources\1000_F_92397908_br85Rxsp1El7BGl3q58K1PimjANGHAJi-removebg-preview.png" />
+    <Content Include="resources\2355692-removebg-preview.png" />
+    <Content Include="resources\2355692.png" />
+    <Content Include="resources\3595957.png" />
+    <Content Include="resources\3974877-removebg-preview %281%29.png" />
+    <Content Include="resources\3974877.png" />
+    <Content Include="resources\489245-removebg-preview.png" />
+    <Content Include="resources\addP-removebg-preview.png" />
+    <Content Include="resources\addStuff-removebg-preview.png" />
+    <Content Include="resources\Add_user_icon__blue_.svg-removebg-preview.png" />
+    <Content Include="resources\appointment-icon-calendar-removebg-preview.png" />
+    <Content Include="resources\background.jpeg" />
+    <Content Include="resources\calendar-icon-add-date-event-symbol--removebg-preview.png" />
+    <Content Include="resources\DOCTOR~1.PNG" />
+    <Content Include="resources\GroupIcon-removebg-preview.png" />
+    <Content Include="resources\Icons-03-removebg-preview.png" />
+    <Content Include="resources\Icons-03.png" />
+    <Content Include="resources\images %281%29.jpg" />
+    <Content Include="resources\images %282%29.jpg" />
+    <Content Include="resources\images-removebg-preview.png" />
+    <Content Include="resources\images-removebg-preview1.png" />
+    <Content Include="resources\images.jpg" />
+    <Content Include="resources\images.png" />
+    <Content Include="resources\images__1_-removebg-preview.png" />
+    <Content Include="resources\images__2_-removebg-preview.png" />
+    <Content Include="resources\istockphoto-1285248235-612x612-removebg-preview.png" />
+    <Content Include="resources\laboratory-symbol-with-microscope-vector-5468244-removebg-preview.png" />
+    <Content Include="resources\manage_patient-removebg-preview.png" />
+    <Content Include="resources\manage_patient-removebg-preview1.png" />
+    <Content Include="resources\manage_patient_1_-removebg-preview.png" />
+    <Content Include="resources\medical-staff-icon-vector-6088119-removebg-preview.png" />
+    <Content Include="resources\new-client-icon-outline-add-customer-vector-removebg-preview.png" />
+    <Content Include="resources\patient-icon-simple-element-from-medical-services-vector-36147880-removebg-preview.png" />
+    <Content Include="resources\pharmaceutical-drug-medicine--removebg-preview.png" />
+    <Content Include="resources\pngtree-nurse-patients-icon-woman-profile-hierarchy-management-vector-png-image_19995068-removebg-preview.png" />
+    <Content Include="resources\Queue-removebg-preview.png" />
     <Content Include="resources\red-cross-hospital-clinic-logo-health-medicine-computer-icons-health-care-png-clipart-removebg-preview.png" />
+    <Content Include="resources\report_icon-removebg-preview.png" />
+    <Content Include="resources\transparent-user-interface-icon-mail-icon-email-removebg-preview.png" />
+    <Content Include="resources\UKZN-Logo-Colour-removebg-preview.png" />
+    <Content Include="resources\UniversityofKwaZuluNatal-logo-removebg-preview.png" />
+    <Content Include="resources\user_admin-removebg-preview.png" />
+    <Content Include="resources\vector-logout-sign-icon-removebg-preview.png" />
+    <Content Include="resources\WhatsApp Image 2024-04-02 at 4.41.22 PM.jpeg" />
+    <Content Include="resources\WhatsApp Image 2024-04-02 at 4.42.20 PM.jpeg" />
+    <Content Include="resources\WhatsApp Image 2024-04-02 at 4.55.41 PM.jpeg" />
+    <Content Include="resources\WhatsApp Image 2024-04-02 at 4.58.14 PM.jpeg" />
+    <Content Include="resources\WhatsApp Image 2024-04-02 at 5.13.06 PM.jpeg" />
+    <Content Include="resources\WhatsApp Image 2024-04-02 at 5.13.07 PM %281%29.jpeg" />
+    <Content Include="resources\WhatsApp Image 2024-04-02 at 5.13.07 PM.jpeg" />
+    <Content Include="resources\WhatsApp Image 2024-04-02 at 5.33.37 PM.jpeg" />
+    <Content Include="resources\WhatsApp_Image_2024-04-02_at_12.37.14_PM-removebg-preview.png" />
+    <Content Include="resources\WhatsApp_Image_2024-04-02_at_12.37.14_PM__1_-removebg-preview.png" />
+    <Content Include="resources\WhatsApp_Image_2024-04-02_at_12.37.14_PM__2_-removebg-preview.png" />
+    <Content Include="resources\WhatsApp_Image_2024-04-02_at_4.42.20_PM-removebg-preview %281%29.png" />
+    <Content Include="resources\WhatsApp_Image_2024-04-02_at_4.42.20_PM-removebg-preview.png" />
+    <Content Include="resources\WhatsApp_Image_2024-04-02_at_4.55.41_PM-removebg-preview.png" />
+    <Content Include="resources\WhatsApp_Image_2024-04-02_at_5.13.06_PM-removebg-preview.png" />
+    <Content Include="resources\WhatsApp_Image_2024-04-02_at_5.33.37_PM-removebg-preview.png" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
@@ -195,6 +257,13 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Doctor.aspx.cs">
+      <DependentUpon>Doctor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Doctor.aspx.designer.cs">
+      <DependentUpon>Doctor.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -226,6 +295,13 @@
     </Compile>
     <Compile Include="LogIn.aspx.designer.cs">
       <DependentUpon>LogIn.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm2.aspx.cs">
+      <DependentUpon>WebForm2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm2.aspx.designer.cs">
+      <DependentUpon>WebForm2.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

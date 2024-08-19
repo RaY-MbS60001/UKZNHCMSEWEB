@@ -1,0 +1,103 @@
+﻿.main {
+    background-color: white;
+    width: 1100px;
+    height: 800px;
+    position: absolute;
+    top: 2%;
+    left: 13%;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0);
+    border-radius: 8px;
+    display: grid;
+    place-items: center;
+}
+
+.titlediv {
+    background-color: rgb(255, 128, 0);
+    width: 800px;
+    height: 80px;
+    position: absolute;
+    top: 10%;
+    left: 23%;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6);
+    border-radius: 8px;
+    display: grid;
+    place-items: center;
+}
+
+.menubuttons {
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    padding: 20px;
+    width: 1300px; /* Adjusted width */
+    height: 500px;
+    position: absolute;
+    top: 25%;
+    left: 5%; /* Adjusted left position */
+    align-items: center; /* Aligns items vertically */
+    justify-items: center; /* Aligns items horizontally */
+}
+
+.buttonpanels {
+    background-color: green;
+    width: 320px;
+    height: 100px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6);
+    border-radius: 8px;
+    display: grid;
+    place-items: center;
+}
+
+table {
+    position: absolute;
+    width: 80%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    display: grid;
+    place-items: center;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 30px;
+}
+
+/*A side bar*/
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+}
+
+/* Sidebar styles */
+.sidebar {
+height: 100%; /* Full height */
+width: 250px; /* Set the width of the sidebar */
+position: fixed; /* Fixed Sidebar (stay in place) */
+top: 0; /* Stay at the top */
+left: 0; /* Align to the left */
+background-color: #111; /* Black background color */
+padding-top: 20px; /* Padding at the top */
+}
+
+/* Sidebar links */
+.sidebar a {
+padding: 10px 15px; /* Padding for links */
+text-decoration: none; /* Remove underline */
+font-size: 18px; /* Font size */
+color: white; /* White text color */
+display: block; /* Make links appear as block elements */
+}
+
+/* Change color on hover */
+.sidebar a:hover {
+background-color: #575757; /* Darker background on hover */
+}
+
+/* Main content styles */
+.content {
+margin-left: 260px; /* Margin to the left to avoid overlap with sidebar */
+padding: 20px; /* Padding for content */
+}
