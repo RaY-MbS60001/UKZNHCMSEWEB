@@ -14,32 +14,95 @@
 
     <webopt:bundlereference runat="server" path="~/Content/css" />
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    
+    <script>
+        function redirectToAppointments() {
+            // Redirect to another page
+            window.location.href = 'appointments.html'; // Change 'appointments.html' to your desired URL
+        }
+    </script>
+
+    <style>
+        .navbardiv {
+            display: flex; /* Enable flexbox */
+            justify-content:center; /* Center horizontally */
+            align-items:center;
+            top:5%;
+        }
+
+        .form-control {
+            width:1500px;
+            height:35px;
+        }
+
+    </style>
 </head>
 <body>
     <form runat="server">
         <asp:ScriptManager runat="server"></asp:ScriptManager>
-
+         
         <div class="navbar navbar-inverse navbar-fixed-top">
-            <div class="container">
-                <ul class="nav navbar-nav">
-                    <li><a href="~/Home.aspx">Home</a></li>
-                    <li><a href="~/About.aspx">About</a></li>
-                    <li><a href="~/Services.aspx">Services</a></li>
-                    <li><a href="~/Contact.aspx">Contact</a></li>
-                </ul>
+    <div class="container">
+       
+        <div class="navbardiv" role="search">
+                <input type="text" class="form-control" placeholder="Search..." style="border-radius: 20px; width: 800px;" />
+                <button type="submit" class="btn btn-default" style="border-radius: 20px;">Search</button>          
+        </div>
+    </div>
+</div>
+
+
+        <div class="sidebar">
+            <div class="iconimg">
+                 <img src="resources/UKZN-Logo-Colour-removebg-preview.png" width="210" height="210" alt="UKZN Logo"/>
+            </div>
+           <br />
+            <h2>Sidebar Menu</h2>
+            <div class="sidebarbuttons" onclick="redirectToAppointments()">
+                <img src="resources/2355692-removebg-preview.png" width="50" height="50"/>
+                View Appointments
+            </div>
+            <br />
+            <div class="sidebarbuttons" onclick="redirectToAppointments()">
+                <img src="resources/2355692-removebg-preview.png" width="50" height="50"/>
+                View Appointments
+            </div>
+            <br />
+            <div class="sidebarbuttons" onclick="redirectToAppointments()">
+                <img src="resources/2355692-removebg-preview.png" width="50" height="50"/>
+                View Appointments
+            </div>
+            <br />
+            <div class="sidebarbuttons" onclick="redirectToAppointments()">
+                <img src="resources/2355692-removebg-preview.png" width="50" height="50"/>
+                View Appointments
+            </div>
+            <br />
+            <div class="sidebarbuttons" onclick="redirectToAppointments()">
+                <img src="resources/2355692-removebg-preview.png" width="50" height="50"/>
+                View Appointments
+            </div>
+            <br />
+            <div class="sidebarbuttons" onclick="redirectToAppointments()">
+                <img src="resources/2355692-removebg-preview.png" width="50" height="50"/>
+                View Appointments
+            </div>
+            <br />
+            <div class="sidebarbuttons" onclick="redirectToAppointments()">
+                <img src="resources/2355692-removebg-preview.png" width="50" height="50"/>
+                View Appointments
             </div>
         </div>
 
         <div class="container body-content">
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
-
-            <hr />
-
-            <footer>
-                <p>&copy; <%: DateTime.Now.Year %> - My ASP.NET Application</p>
-            </footer>
         </div>
+        <br/>
+        <hr />
+        <footer class="newfooter">
+            <p>&copy; <%: DateTime.Now.Year %> - My ASP.NET Application</p>
+        </footer>
     </form>
 </body>
 </html>
