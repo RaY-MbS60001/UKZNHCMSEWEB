@@ -1,7 +1,6 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="UKZNHCMSEWEB.SiteMaster" %>
 
 <!DOCTYPE html>
-
 <html lang="en">
 <head runat="server">
     <meta charset="utf-8" />
@@ -12,97 +11,178 @@
         <%: Scripts.Render("~/bundles/modernizr") %>
     </asp:PlaceHolder>
 
-    <webopt:bundlereference runat="server" path="~/Content/css" />
+    <link href="~/Content/css" rel="stylesheet" />
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
-    
-    <script>
-        function redirectToAppointments() {
-            // Redirect to another page
-            window.location.href = 'appointments.html'; // Change 'appointments.html' to your desired URL
-        }
-    </script>
 
     <style>
-        .navbardiv {
-            display: flex; /* Enable flexbox */
-            justify-content:center; /* Center horizontally */
-            align-items:center;
-            top:5%;
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .navbar {
+            background-color: #007bff;
+            color: white;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            position: fixed; /* Fix the navbar at the top */
+            top: 0;
+            left: 0;
+            right: 0; /* Make it stretch across the full width */
+            z-index: 1000; /* Ensure it stays above other content */
+        }
+
+        .navbar h1 {
+            margin: 0;
+        }
+
+        .search-container {
+            display: flex;
+            align-items: center;
         }
 
         .form-control {
-            width:1500px;
-            height:35px;
+            border-radius: 20px;
+            padding: 10px;
+            border: none;
+            width: 300px;
+            margin-right: 10px;
         }
 
+        .navbar iconimg {
+            margin-right: 20px;
+        }
+
+        .btn {
+            border-radius: 20px;
+            padding: 10px 25px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        .sidebar {
+            width: 265px;
+            background-color: white;
+            position: fixed;
+            top: 80px; /* Below the navbar */
+            bottom: 0;
+            left: 0;
+            padding: 10px;
+            box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+            overflow-y: auto; /* Scrollable if content exceeds */
+        }
+
+        .sidebar h2 {
+            margin-top: 0;
+        }
+
+        .sidebarbuttons {
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .sidebarbuttons:hover {
+            background-color: #f0f0f0;
+            transform: scale(1.05);
+        }
+
+        .sidebarbuttons img {
+            margin-right: 10px;
+        }
+
+        .content {
+            margin-left: 270px; /* Space for sidebar */
+            padding: 15px;
+            background-color: #fff;
+            min-height: calc(100vh - 70px); /* Full height minus navbar */
+            margin-top: 70px; /* Space for fixed navbar */
+        }
+
+        footer {
+            background-color: #007bff;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
     </style>
 </head>
 <body>
     <form runat="server">
         <asp:ScriptManager runat="server"></asp:ScriptManager>
-         
-        <div class="navbar navbar-inverse navbar-fixed-top">
-    <div class="container">
-       
-        <div class="navbardiv" role="search">
-                <input type="text" class="form-control" placeholder="Search..." style="border-radius: 20px; width: 800px;" />
-                <button type="submit" class="btn btn-default" style="border-radius: 20px;">Search</button>          
-        </div>
-    </div>
-</div>
 
+        <div class="navbar">
+            <h1><b>UKZN Howard Campus Clinic</b></h1>
+            <div class="search-container">
+                <input type="text" class="form-control" placeholder="Search..." />
+                <button type="submit" class="btn">Search</button>
+            </div>
+        </div>
 
         <div class="sidebar">
             <div class="iconimg">
-                 <img src="resources/UKZN-Logo-Colour-removebg-preview.png" width="210" height="210" alt="UKZN Logo"/>
+                <img src="resources/UKZN-Logo-Colour-removebg-preview.png" width="210" height="210" alt="UKZN Logo"/>
             </div>
-           <br />
-            <h2>Sidebar Menu</h2>
+            <hr />
             <div class="sidebarbuttons" onclick="redirectToAppointments()">
                 <img src="resources/user_admin-removebg-preview.png" width="45" height="45"/>
                 <h4><b>Manager</b></h4>
             </div>
-            <br />
             <div class="sidebarbuttons" onclick="redirectToAppointments()">
                 <img src="resources/user_admin-removebg-preview.png" width="45" height="45"/>
                 <h4><b>Admin</b></h4>
             </div>
-            <br />
             <div class="sidebarbuttons" onclick="redirectToAppointments()">
                 <img src="resources/2355692-removebg-preview.png" width="50" height="50"/>
                 <h4><b>Doctor</b></h4>
             </div>
-            <br />
             <div class="sidebarbuttons" onclick="redirectToAppointments()">
                 <img src="resources/2355692-removebg-preview.png" width="50" height="50"/>
                 <h4><b>Nurse</b></h4>
             </div>
-            <br />
             <div class="sidebarbuttons" onclick="redirectToAppointments()">
                 <img src="resources/2355692-removebg-preview.png" width="50" height="50"/>
                 <h4><b>Emails</b></h4>
             </div>
-            <br />
             <div class="sidebarbuttons" onclick="redirectToAppointments()">
                 <img src="resources/2355692-removebg-preview.png" width="50" height="50"/>
                 <h4><b>System</b></h4>
             </div>
-            <br />
             <div class="sidebarbuttons" onclick="redirectToAppointments()">
                 <img src="resources/2355692-removebg-preview.png" width="50" height="50"/>
                 <h4><b>LogOut</b></h4>
             </div>
         </div>
 
-        <div class="container body-content">
+        <script>
+            function redirectToAppointments() {
+                // Redirect to the appointments page
+	window.location.href = 'Nurse.aspx'; // Change this to your actual appointments page URL
+            }
+        </script>
+
+        <div class="content">
+            <hr />
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
+            <hr />
+            <footer>
+                <p>&copy; <%: DateTime.Now.Year %> - My ASP.NET Application</p>
+            </footer>
         </div>
-        <br/>
-        <hr />
-        <footer class="newfooter">
-            <p>&copy; <%: DateTime.Now.Year %> - My ASP.NET Application</p>
-        </footer>
     </form>
 </body>
 </html>

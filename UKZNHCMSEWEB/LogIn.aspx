@@ -63,10 +63,13 @@
 </head>
 <body>
     <form id="form1" runat="server">
+
+        <%--LOGO SECTION--%>
         <div class="logosection">
             <img src="resources/red-cross-hospital-clinic-logo-health-medicine-computer-icons-health-care-png-clipart-removebg-preview.png" width="150" height="150" alt="Clinic Logo" />
             <h2>Welcome to UKZN Howard Clinic</h2>
             <h3>*Log in as*</h3>
+
             <fieldset class="radiobuttons">
                 <legend>Select Role</legend>
                 <asp:RadioButton ID="RadioButton1" runat="server" GroupName="UserRole" Text="Admin" />
@@ -74,7 +77,9 @@
                 <asp:RadioButton ID="RadioButton3" runat="server" GroupName="UserRole" Text="Doctor" />
                 <asp:RadioButton ID="RadioButton4" runat="server" GroupName="UserRole" Text="Nurse" />
             </fieldset>
+
             <br />
+
             <section class="inline-container">
                 <label for="TextBox1">Username</label>
                 <asp:TextBox ID="TextBox1" runat="server" placeholder="Username"></asp:TextBox>
