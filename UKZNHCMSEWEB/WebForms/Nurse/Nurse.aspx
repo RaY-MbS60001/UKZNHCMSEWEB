@@ -88,51 +88,51 @@
                 <table class="mainmenutable">
                     <tr>
                         <td><div class="buttonpanels">
-                                <img src="resources/2355692-removebg-preview.png" width="100" height="100"/>
+                                <img src="../../Resources/2355692-removebg-preview.png" width="100" height="100"/>
                                 View Appointments
                             </div>
                         </td>
                         <td><div class="buttonpanels">
-                                <img src="resources/2355692-removebg-preview.png" width="100" height="100"/>
+                                <img src="../../Resources/2355692-removebg-preview.png" width="100" height="100"/>
                                 View Appointments
                             </div>
                         </td>
                         <td><div class="buttonpanels">
-                                <img src="resources/2355692-removebg-preview.png" width="100" height="100"/>
+                                <img src="../../Resources/2355692-removebg-preview.png" width="100" height="100"/>
                                 View Appointments
                             </div>
                         </td>
                     </tr>
                     <tr>
                         <td><div class="buttonpanels">
-                                <img src="resources/2355692-removebg-preview.png" width="100" height="100"/>
+                                <img src="../../Resources/2355692-removebg-preview.png" width="100" height="100"/>
                                 View Appointments
                             </div>
                         </td>
                         <td><div class="buttonpanels">
-                                <img src="resources/2355692-removebg-preview.png" width="100" height="100"/>
+                                <img src="../../Resources/2355692-removebg-preview.png" width="100" height="100"/>
                                 View Appointments
                             </div>
                         </td>
                         <td><div class="buttonpanels">
-                                <img src="resources/2355692-removebg-preview.png" width="100" height="100"/>
+                                <img src="../../Resources/2355692-removebg-preview.png" width="100" height="100"/>
                                 View Appointments
                             </div>
                         </td>
                     </tr>
                      <tr>
                         <td><div class="buttonpanels">
-                                <img src="resources/2355692-removebg-preview.png" width="100" height="100"/>
+                                <img src="../../Resources/2355692-removebg-preview.png" width="100" height="100"/>
                                 View Appointments
                             </div>
                         </td>
                         <td><div class="buttonpanels">
-                                <img src="resources/2355692-removebg-preview.png" width="100" height="100"/>
+                                <img src="../../Resources/2355692-removebg-preview.png" width="100" height="100"/>
                                 View Appointments
                             </div>
                         </td>
                         <td><div class="buttonpanels">
-                                <img src="resources/2355692-removebg-preview.png" width="100" height="100"/>
+                                <img src="../../Resources/2355692-removebg-preview.png" width="100" height="100"/>
                                 View Appointments
                             </div>
                         </td>

@@ -134,35 +134,35 @@
 
         <div class="sidebar">
             <div class="iconimg">
-                <img src="resources/UKZN-Logo-Colour-removebg-preview.png" width="210" height="210" alt="UKZN Logo"/>
+	<img src="../../Resources/UKZN-Logo-Colour-removebg-preview.png" width="210" height="210" alt="UKZN Logo"/>
             </div>
             <hr />
             <div class="sidebarbuttons" onclick="redirectToAppointments()">
-                <img src="resources/user_admin-removebg-preview.png" width="45" height="45"/>
+                <img src="../../Resources/user_admin-removebg-preview.png" width="45" height="45"/>
                 <h4><b>Manager</b></h4>
             </div>
             <div class="sidebarbuttons" onclick="redirectToAppointments()">
-                <img src="resources/user_admin-removebg-preview.png" width="45" height="45"/>
+                <img src="../../Resources/user_admin-removebg-preview.png" width="45" height="45"/>
                 <h4><b>Admin</b></h4>
             </div>
             <div class="sidebarbuttons" onclick="redirectToAppointments()">
-                <img src="resources/2355692-removebg-preview.png" width="50" height="50"/>
+                <img src="../../Resources/2355692-removebg-preview.png" width="50" height="50"/>
                 <h4><b>Doctor</b></h4>
             </div>
             <div class="sidebarbuttons" onclick="redirectToAppointments()">
-                <img src="resources/2355692-removebg-preview.png" width="50" height="50"/>
+                <img src="../../Resources/2355692-removebg-preview.png" width="50" height="50"/>
                 <h4><b>Nurse</b></h4>
             </div>
             <div class="sidebarbuttons" onclick="redirectToAppointments()">
-                <img src="resources/2355692-removebg-preview.png" width="50" height="50"/>
+                <img src="../../Resources/2355692-removebg-preview.png" width="50" height="50"/>
                 <h4><b>Emails</b></h4>
             </div>
             <div class="sidebarbuttons" onclick="redirectToAppointments()">
-                <img src="resources/2355692-removebg-preview.png" width="50" height="50"/>
+                <img src="../../Resources/2355692-removebg-preview.png" width="50" height="50"/>
                 <h4><b>System</b></h4>
             </div>
             <div class="sidebarbuttons" onclick="redirectToAppointments()">
-                <img src="resources/2355692-removebg-preview.png" width="50" height="50"/>
+                <img src="../../Resources/2355692-removebg-preview.png" width="50" height="50"/>
                 <h4><b>LogOut</b></h4>
             </div>
         </div>
