@@ -82,7 +82,6 @@
         </table>
 
         <%--MAIN CONTENT BUTTONS GRID TABLE--%>
-        <section class="menubuttons">
                 
                 <%--GRID TABLE FOR BUTTONS--%>
                 <table class="mainmenutable">
@@ -139,6 +138,5 @@
                     </tr>
                 </table>
                 <asp:Table ID="Table1" runat="server"></asp:Table>
-            </section>
     </div>
 </asp:Content>
